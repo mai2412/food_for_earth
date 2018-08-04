@@ -22,7 +22,8 @@ let binSchema = new mongoose.Schema({
     location: {
         address: String,
         latitude: String,
-        longitude: String
+        longitude: String,
+        binFull: Boolean
     }
 })
 
@@ -49,7 +50,8 @@ User.create (
                     location: {
                         address: "7 Kelly Street",
                         latitude: "123.45",
-                        longitude: "564.45"
+                        longitude: "564.45",
+                        binFull: false
                     }
                 }, 
                     (err, bin) => {
