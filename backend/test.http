@@ -25,9 +25,13 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:3000/users/5b65723a3760c75e72d95405/bins
+POST http://localhost:3000/users/5b6577910c48465fde49d0d9/bins
 Content-Type: application/json
 
 {
-    "location": "123 Smail Street"
+    "location": {
+        "address": "124 Smail Street",
+        "latitude": "123.34",
+        "longitude": "345.44"
+    }
 }
