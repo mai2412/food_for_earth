@@ -1,3 +1,33 @@
 
 
+http://localhost:3000/users
+
+###
+
+http://localhost:3000/users
+
+###
+
+http://localhost:3000/users/5b655beb4a94105870166833
+
+###
+
 http://localhost:3000/bins
+
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Jenny",
+    "email": "john@gmail.comt"
+}
+
+###
+POST http://localhost:3000/users/5b65723a3760c75e72d95405/bins
+Content-Type: application/json
+
+{
+    "location": "123 Smail Street"
+}
